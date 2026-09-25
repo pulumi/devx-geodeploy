@@ -1,0 +1,484 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`snapshots > aws region list is pinned 1`] = `
+[
+  {
+    "azCount": 6,
+    "centroid": {
+      "lat": 39.0438,
+      "lon": -77.4874,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "eks",
+    "provider": "aws",
+    "region": "us-east-1",
+  },
+  {
+    "azCount": 4,
+    "centroid": {
+      "lat": 45.8399,
+      "lon": -119.7006,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "eks",
+    "provider": "aws",
+    "region": "us-west-2",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 43.6532,
+      "lon": -79.3832,
+    },
+    "complianceFlags": [
+      "pipeda",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "eks",
+    "provider": "aws",
+    "region": "ca-central-1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": -23.5505,
+      "lon": -46.6333,
+    },
+    "complianceFlags": [
+      "lgpd",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "eks",
+    "provider": "aws",
+    "region": "sa-east-1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 53.3498,
+      "lon": -6.2603,
+    },
+    "complianceFlags": [
+      "gdpr",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "eks",
+    "provider": "aws",
+    "region": "eu-west-1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 50.1109,
+      "lon": 8.6821,
+    },
+    "complianceFlags": [
+      "gdpr",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "eks",
+    "provider": "aws",
+    "region": "eu-central-1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 26.0667,
+      "lon": 50.5577,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "eks",
+    "provider": "aws",
+    "region": "me-south-1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": -33.9249,
+      "lon": 18.4241,
+    },
+    "complianceFlags": [
+      "popia",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "eks",
+    "provider": "aws",
+    "region": "af-south-1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 19.076,
+      "lon": 72.8777,
+    },
+    "complianceFlags": [
+      "in-country-only",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "eks",
+    "provider": "aws",
+    "region": "ap-south-1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 1.3521,
+      "lon": 103.8198,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "eks",
+    "provider": "aws",
+    "region": "ap-southeast-1",
+  },
+  {
+    "azCount": 4,
+    "centroid": {
+      "lat": 35.6762,
+      "lon": 139.6503,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "eks",
+    "provider": "aws",
+    "region": "ap-northeast-1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": -33.8688,
+      "lon": 151.2093,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "eks",
+    "provider": "aws",
+    "region": "ap-southeast-2",
+  },
+]
+`;
+
+exports[`snapshots > azure region list is pinned 1`] = `
+[
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 36.6681,
+      "lon": -78.3889,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "aks",
+    "provider": "azure",
+    "region": "eastus",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 47.2343,
+      "lon": -119.8524,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "aks",
+    "provider": "azure",
+    "region": "westus2",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 43.6532,
+      "lon": -79.3832,
+    },
+    "complianceFlags": [
+      "pipeda",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "aks",
+    "provider": "azure",
+    "region": "canadacentral",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": -23.5505,
+      "lon": -46.6333,
+    },
+    "complianceFlags": [
+      "lgpd",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "aks",
+    "provider": "azure",
+    "region": "brazilsouth",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 53.3478,
+      "lon": -6.2597,
+    },
+    "complianceFlags": [
+      "gdpr",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "aks",
+    "provider": "azure",
+    "region": "northeurope",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 52.3667,
+      "lon": 4.9,
+    },
+    "complianceFlags": [
+      "gdpr",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "aks",
+    "provider": "azure",
+    "region": "westeurope",
+  },
+  {
+    "azCount": 1,
+    "centroid": {
+      "lat": 25.2048,
+      "lon": 55.2708,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "aks",
+    "provider": "azure",
+    "region": "uaenorth",
+  },
+  {
+    "azCount": 1,
+    "centroid": {
+      "lat": -25.7313,
+      "lon": 28.2184,
+    },
+    "complianceFlags": [
+      "popia",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "aks",
+    "provider": "azure",
+    "region": "southafricanorth",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 18.5204,
+      "lon": 73.8567,
+    },
+    "complianceFlags": [
+      "in-country-only",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "aks",
+    "provider": "azure",
+    "region": "centralindia",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 1.3521,
+      "lon": 103.8198,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "aks",
+    "provider": "azure",
+    "region": "southeastasia",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 35.6762,
+      "lon": 139.6503,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "aks",
+    "provider": "azure",
+    "region": "japaneast",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": -33.8688,
+      "lon": 151.2093,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "aks",
+    "provider": "azure",
+    "region": "australiaeast",
+  },
+]
+`;
+
+exports[`snapshots > gcp region list is pinned 1`] = `
+[
+  {
+    "azCount": 4,
+    "centroid": {
+      "lat": 41.2619,
+      "lon": -95.8608,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "gke",
+    "provider": "gcp",
+    "region": "us-central1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 39.0438,
+      "lon": -77.4874,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "gke",
+    "provider": "gcp",
+    "region": "us-east4",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 45.5017,
+      "lon": -73.5673,
+    },
+    "complianceFlags": [
+      "pipeda",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "gke",
+    "provider": "gcp",
+    "region": "northamerica-northeast1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": -23.5505,
+      "lon": -46.6333,
+    },
+    "complianceFlags": [
+      "lgpd",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "gke",
+    "provider": "gcp",
+    "region": "southamerica-east1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 50.4542,
+      "lon": 3.8188,
+    },
+    "complianceFlags": [
+      "gdpr",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "gke",
+    "provider": "gcp",
+    "region": "europe-west1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 50.1109,
+      "lon": 8.6821,
+    },
+    "complianceFlags": [
+      "gdpr",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "gke",
+    "provider": "gcp",
+    "region": "europe-west3",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 32.0853,
+      "lon": 34.7818,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "gke",
+    "provider": "gcp",
+    "region": "me-west1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": -26.2041,
+      "lon": 28.0473,
+    },
+    "complianceFlags": [
+      "popia",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "gke",
+    "provider": "gcp",
+    "region": "africa-south1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 19.076,
+      "lon": 72.8777,
+    },
+    "complianceFlags": [
+      "in-country-only",
+    ],
+    "gaStatus": true,
+    "managedK8sService": "gke",
+    "provider": "gcp",
+    "region": "asia-south1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 1.3521,
+      "lon": 103.8198,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "gke",
+    "provider": "gcp",
+    "region": "asia-southeast1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": 35.6762,
+      "lon": 139.6503,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "gke",
+    "provider": "gcp",
+    "region": "asia-northeast1",
+  },
+  {
+    "azCount": 3,
+    "centroid": {
+      "lat": -33.8688,
+      "lon": 151.2093,
+    },
+    "complianceFlags": [],
+    "gaStatus": true,
+    "managedK8sService": "gke",
+    "provider": "gcp",
+    "region": "australia-southeast1",
+  },
+]
+`;

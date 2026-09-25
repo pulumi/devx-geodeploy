@@ -1,0 +1,223 @@
+{
+  "skus": [
+    {
+      "name": "services/6F81-5844-456A/skus/AA95-CD31-42FE",
+      "skuId": "AA95-CD31-42FE",
+      "description": "N2 Predefined Instance Core running in Americas",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Compute",
+        "resourceGroup": "N2",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": ["us-central1", "us-east1"],
+      "pricingInfo": [
+        {
+          "effectiveTime": "2026-01-01T00:00:00Z",
+          "pricingExpression": {
+            "usageUnit": "h",
+            "usageUnitDescription": "hour",
+            "baseUnit": "s",
+            "baseUnitDescription": "second",
+            "baseUnitConversionFactor": 3600,
+            "displayQuantity": 1,
+            "tieredRates": [
+              { "startUsageAmount": 0, "unitPrice": { "currencyCode": "USD", "units": "0", "nanos": 31611000 } }
+            ]
+          },
+          "currencyConversionRate": 1
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": { "type": "REGIONAL", "regions": ["us-central1", "us-east1"] }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/BB16-DE42-53AF",
+      "skuId": "BB16-DE42-53AF",
+      "description": "N2 Predefined Instance Ram running in Americas",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Compute",
+        "resourceGroup": "N2",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": ["us-central1", "us-east1"],
+      "pricingInfo": [
+        {
+          "effectiveTime": "2026-01-01T00:00:00Z",
+          "pricingExpression": {
+            "usageUnit": "GiBy.h",
+            "usageUnitDescription": "gibibyte hour",
+            "baseUnit": "By.s",
+            "baseUnitDescription": "byte second",
+            "baseUnitConversionFactor": 3865470566400,
+            "displayQuantity": 1,
+            "tieredRates": [
+              { "startUsageAmount": 0, "unitPrice": { "currencyCode": "USD", "units": "0", "nanos": 4237000 } }
+            ]
+          },
+          "currencyConversionRate": 1
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": { "type": "REGIONAL", "regions": ["us-central1", "us-east1"] }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/CC27-EF53-64B0",
+      "skuId": "CC27-EF53-64B0",
+      "description": "Tau T2A Instance Core running in Americas",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Compute",
+        "resourceGroup": "T2A",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": ["us-central1"],
+      "pricingInfo": [
+        {
+          "effectiveTime": "2026-01-01T00:00:00Z",
+          "pricingExpression": {
+            "usageUnit": "h",
+            "usageUnitDescription": "hour",
+            "baseUnit": "s",
+            "baseUnitDescription": "second",
+            "baseUnitConversionFactor": 3600,
+            "displayQuantity": 1,
+            "tieredRates": [
+              { "startUsageAmount": 0, "unitPrice": { "currencyCode": "USD", "units": "0", "nanos": 23377000 } }
+            ]
+          },
+          "currencyConversionRate": 1
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": { "type": "REGIONAL", "regions": ["us-central1"] }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/DD38-F064-75C1",
+      "skuId": "DD38-F064-75C1",
+      "description": "Tau T2A Instance Ram running in Americas",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Compute",
+        "resourceGroup": "T2A",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": ["us-central1"],
+      "pricingInfo": [
+        {
+          "effectiveTime": "2026-01-01T00:00:00Z",
+          "pricingExpression": {
+            "usageUnit": "GiBy.h",
+            "usageUnitDescription": "gibibyte hour",
+            "baseUnit": "By.s",
+            "baseUnitDescription": "byte second",
+            "baseUnitConversionFactor": 3865470566400,
+            "displayQuantity": 1,
+            "tieredRates": [
+              { "startUsageAmount": 0, "unitPrice": { "currencyCode": "USD", "units": "0", "nanos": 3133300 } }
+            ]
+          },
+          "currencyConversionRate": 1
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": { "type": "REGIONAL", "regions": ["us-central1"] }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/EE49-0175-86D2",
+      "skuId": "EE49-0175-86D2",
+      "description": "SSD backed PD Capacity",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Storage",
+        "resourceGroup": "SSD",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": ["us-central1", "us-east1"],
+      "pricingInfo": [
+        {
+          "effectiveTime": "2026-01-01T00:00:00Z",
+          "pricingExpression": {
+            "usageUnit": "GiBy.mo",
+            "usageUnitDescription": "gibibyte month",
+            "baseUnit": "By.s",
+            "baseUnitDescription": "byte second",
+            "baseUnitConversionFactor": 2851200,
+            "displayQuantity": 1,
+            "tieredRates": [
+              { "startUsageAmount": 0, "unitPrice": { "currencyCode": "USD", "units": "0", "nanos": 170000000 } }
+            ]
+          },
+          "currencyConversionRate": 1
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": { "type": "REGIONAL", "regions": ["us-central1", "us-east1"] }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/FF50-1286-97E3",
+      "skuId": "FF50-1286-97E3",
+      "description": "Internet Data Transfer Out (Americas destinations, tier 1)",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Network",
+        "resourceGroup": "PremiumInternetEgress",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": ["us-central1", "us-east1"],
+      "pricingInfo": [
+        {
+          "effectiveTime": "2026-01-01T00:00:00Z",
+          "pricingExpression": {
+            "usageUnit": "GiBy",
+            "usageUnitDescription": "gibibyte",
+            "baseUnit": "By",
+            "baseUnitDescription": "byte",
+            "baseUnitConversionFactor": 1073741824,
+            "displayQuantity": 1,
+            "tieredRates": [
+              { "startUsageAmount": 0, "unitPrice": { "currencyCode": "USD", "units": "0", "nanos": 120000000 } },
+              { "startUsageAmount": 1024, "unitPrice": { "currencyCode": "USD", "units": "0", "nanos": 110000000 } }
+            ]
+          },
+          "currencyConversionRate": 1
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": { "type": "MULTI_REGIONAL", "regions": ["us-central1", "us-east1"] }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/GG61-2397-A8F4",
+      "skuId": "GG61-2397-A8F4",
+      "description": "Network Load Balancing Forwarding Rule",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Network",
+        "resourceGroup": "LoadBalancing",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": ["us-central1", "us-east1"],
+      "pricingInfo": [
+        {
+          "effectiveTime": "2026-01-01T00:00:00Z",
+          "pricingExpression": {
+            "usageUnit": "h",
+            "usageUnitDescription": "hour",
+            "baseUnit": "s",
+            "baseUnitDescription": "second",
+            "baseUnitConversionFactor": 3600,
+            "displayQuantity": 1,
+            "tieredRates": [
+              { "startUsageAmount": 0, "unitPrice": { "currencyCode": "USD", "units": "0", "nanos": 25000000 } }
+            ]
+          },
+          "currencyConversionRate": 1
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": { "type": "REGIONAL", "regions": ["us-central1", "us-east1"] }
+    }
+  ],
+  "nextPageToken": ""
+}

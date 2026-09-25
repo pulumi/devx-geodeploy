@@ -1,0 +1,9 @@
+packages:
+  - "packages/*"
+allowBuilds:
+  '@pulumi/docker-build': true
+  '@pulumi/kubernetes': true
+  esbuild: true
+  protobufjs: true
+minimumReleaseAgeExclude:
+  - '@pulumi/pulumi@3.263.0'

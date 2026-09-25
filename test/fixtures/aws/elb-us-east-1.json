@@ -1,0 +1,46 @@
+{
+  "formatVersion": "v1.0",
+  "publicationDate": "2026-09-11T12:45:44Z",
+  "products": {
+    "37CUWUT8GSNQEPUV": {
+      "sku": "37CUWUT8GSNQEPUV",
+      "productFamily": "Load Balancer-Application",
+      "attributes": {
+        "servicecode": "AWSELB",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "group": "ELB:Balancing",
+        "groupDescription": "LoadBalancer hourly usage by Application Load Balancer",
+        "usagetype": "LoadBalancerUsage",
+        "operation": "LoadBalancing:Application",
+        "regionCode": "us-east-1",
+        "servicename": "Elastic Load Balancing"
+      }
+    }
+  },
+  "terms": {
+    "OnDemand": {
+      "37CUWUT8GSNQEPUV": {
+        "37CUWUT8GSNQEPUV.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "37CUWUT8GSNQEPUV",
+          "effectiveDate": "2026-08-01T00:00:00Z",
+          "priceDimensions": {
+            "37CUWUT8GSNQEPUV.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "37CUWUT8GSNQEPUV.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.0225 per Application LoadBalancer-hour (or partial hour)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Hrs",
+              "pricePerUnit": {
+                "USD": "0.0225000000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      }
+    }
+  }
+}

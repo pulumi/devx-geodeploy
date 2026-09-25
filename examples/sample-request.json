@@ -1,0 +1,20 @@
+{
+  "targetGeos": [
+    { "id": "eu-central", "weightPct": 60 },
+    { "id": "us-east", "weightPct": 40 }
+  ],
+  "image": {
+    "reference": "ghcr.io/example/demo-app:1.0.0",
+    "platforms": ["linux/amd64", "linux/arm64"]
+  },
+  "workload": {
+    "manifests": ["k8s/deployment.yaml", "k8s/service.yaml"],
+    "replicasPerRegion": 2,
+    "requestsPerPod": { "vcpu": 1, "memGiB": 2 },
+    "egressGiBPerMonth": 50,
+    "storageGiB": 20
+  },
+  "constraints": {
+    "maxProviders": 2
+  }
+}

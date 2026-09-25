@@ -1,0 +1,59 @@
+name: repo-hygiene
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  secrets:
+    name: Secret scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: gitleaks
+        run: |
+          docker run --rm -v "$PWD:/repo" zricethezav/gitleaks:latest \
+            git /repo --no-banner --redact -v
+
+  tracked-files:
+    name: No ignored or generated files committed
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fail if any tracked file matches .gitignore
+        run: |
+          bad="$(git ls-files -ci --exclude-standard)"
+          if [ -n "$bad" ]; then
+            echo "These tracked files match .gitignore and must be removed:"
+            echo "$bad"
+            exit 1
+          fi
+      - name: Fail on files over 5 MB
+        run: |
+          big="$(git ls-files -z | xargs -0 du -k | awk '$1 > 5120 {print $2}')"
+          if [ -n "$big" ]; then
+            echo "Files over 5 MB:"; echo "$big"; exit 1
+          fi
+
+  test:
+    name: Build and test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12.4.2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      - run: pnpm typecheck
+      - run: pnpm test

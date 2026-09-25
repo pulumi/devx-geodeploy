@@ -1,0 +1,7 @@
+{
+  "serviceName eq 'Virtual Machines' and armRegionName eq 'westeurope' and armSkuName eq 'Standard_D2s_v5' and priceType eq 'Consumption'": "vm-d2sv5.json",
+  "serviceName eq 'Azure Kubernetes Service' and armRegionName eq 'westeurope'": "aks.json",
+  "serviceName eq 'Storage' and armRegionName eq 'westeurope' and contains(productName, 'Premium SSD v2')": "storage.json",
+  "serviceName eq 'Bandwidth' and contains(productName, 'Routing Preference: Internet')": "bandwidth.json",
+  "serviceName eq 'Load Balancer' and armRegionName eq 'Global'": "loadbalancer.json"
+}

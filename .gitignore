@@ -1,0 +1,105 @@
+# ---------------------------------------------------------------------------
+# Secrets and credentials. Never commit these.
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+*.gpg
+credentials
+credentials.*
+*credentials*.json
+*service-account*.json
+*-sa-key*.json
+kubeconfig
+kubeconfig*
+*.kubeconfig
+.kube/
+.aws/
+.azure/
+.gcloud/
+.npmrc
+.yarnrc
+.netrc
+secrets.*
+*.secret
+*.secrets
+
+# Pulumi stack config and local state. Stack config can hold encrypted
+# secrets and account-specific values.
+Pulumi.*.yaml
+.pulumi/
+
+# ---------------------------------------------------------------------------
+# GeoDeploy run output. These records hold real account IDs, regions,
+# endpoints and pricing for whoever ran them, and the CLI writes them to the
+# current directory by default.
+# ---------------------------------------------------------------------------
+plan.json
+plan.md
+apply.json
+monitor.json
+monitor-control.json
+
+# ---------------------------------------------------------------------------
+# Build output. Compiled files must never sit next to sources.
+# ---------------------------------------------------------------------------
+node_modules/
+dist/
+build/
+out/
+*.tsbuildinfo
+packages/*/src/**/*.js
+packages/*/src/**/*.js.map
+packages/*/src/**/*.d.ts
+packages/*/src/**/*.d.ts.map
+.pnpm-store/
+coverage/
+.turbo/
+.cache/
+.vite/
+
+# ---------------------------------------------------------------------------
+# Logs, dumps, scratch files
+# ---------------------------------------------------------------------------
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.bak
+*.orig
+*.swp
+*.swo
+*~
+*.har
+*.heapsnapshot
+*.cpuprofile
+
+# ---------------------------------------------------------------------------
+# Local planning docs and agent scratch space
+# ---------------------------------------------------------------------------
+PROJECT-PLAN.md
+scratch/
+scratchpad/
+.claude/
+CLAUDE.local.md
+
+# ---------------------------------------------------------------------------
+# OS and editors
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.iml

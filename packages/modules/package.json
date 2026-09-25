@@ -1,0 +1,23 @@
+{
+  "name": "@geodeploy/modules",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@geodeploy/core": "workspace:*",
+    "@pulumi/pulumi": "^3.142.0",
+    "@pulumi/eks": "^4.3.0",
+    "@pulumi/azure-native": "^3.28.0",
+    "@pulumi/gcp": "^9.37.0",
+    "@pulumi/aws": "^7.46.0",
+    "@pulumi/kubernetes": "^4.34.1",
+    "@pulumi/docker-build": "^0.0.22",
+    "@pulumi/ns1": "^3.10.1",
+    "@pulumi/cloudflare": "^6.20.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@geodeploy/detect",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sts": "^3.1133.0",
+    "@azure/identity": "^4.13.3",
+    "@geodeploy/core": "workspace:*",
+    "google-auth-library": "^11.0.2"
+  }
+}

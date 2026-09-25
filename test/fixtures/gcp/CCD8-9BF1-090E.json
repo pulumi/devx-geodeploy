@@ -1,0 +1,36 @@
+{
+  "skus": [
+    {
+      "name": "services/CCD8-9BF1-090E/skus/HH72-3408-B905",
+      "skuId": "HH72-3408-B905",
+      "description": "Kubernetes Engine Cluster Management Fee",
+      "category": {
+        "serviceDisplayName": "Kubernetes Engine",
+        "resourceFamily": "ApplicationServices",
+        "resourceGroup": "ClusterManagement",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": ["us-central1", "us-east1"],
+      "pricingInfo": [
+        {
+          "effectiveTime": "2026-01-01T00:00:00Z",
+          "pricingExpression": {
+            "usageUnit": "h",
+            "usageUnitDescription": "hour",
+            "baseUnit": "s",
+            "baseUnitDescription": "second",
+            "baseUnitConversionFactor": 3600,
+            "displayQuantity": 1,
+            "tieredRates": [
+              { "startUsageAmount": 0, "unitPrice": { "currencyCode": "USD", "units": "0", "nanos": 100000000 } }
+            ]
+          },
+          "currencyConversionRate": 1
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": { "type": "REGIONAL", "regions": ["us-central1", "us-east1"] }
+    }
+  ],
+  "nextPageToken": ""
+}

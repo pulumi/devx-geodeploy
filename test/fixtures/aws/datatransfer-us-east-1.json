@@ -1,0 +1,81 @@
+{
+  "formatVersion": "v1.0",
+  "publicationDate": "2026-09-16T13:22:08Z",
+  "products": {
+    "HQEH3ZWJVT46JHRG": {
+      "sku": "HQEH3ZWJVT46JHRG",
+      "productFamily": "Data Transfer",
+      "attributes": {
+        "servicecode": "AWSDataTransfer",
+        "transferType": "AWS Outbound",
+        "fromLocation": "US East (N. Virginia)",
+        "fromLocationType": "AWS Region",
+        "toLocation": "External",
+        "toLocationType": "Other",
+        "usagetype": "DataTransfer-Out-Bytes",
+        "operation": "",
+        "fromRegionCode": "us-east-1",
+        "servicename": "AWS Data Transfer",
+        "toRegionCode": ""
+      }
+    }
+  },
+  "terms": {
+    "OnDemand": {
+      "HQEH3ZWJVT46JHRG": {
+        "HQEH3ZWJVT46JHRG.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "HQEH3ZWJVT46JHRG",
+          "effectiveDate": "2026-06-01T00:00:00Z",
+          "priceDimensions": {
+            "HQEH3ZWJVT46JHRG.JRTCKXETXF.Q3Z75P77EN": {
+              "rateCode": "HQEH3ZWJVT46JHRG.JRTCKXETXF.Q3Z75P77EN",
+              "description": "$0.090 per GB - first 10 TB / month data transfer out beyond the global free tier",
+              "beginRange": "0",
+              "endRange": "10240",
+              "unit": "GB",
+              "pricePerUnit": {
+                "USD": "0.0900000000"
+              },
+              "appliesTo": []
+            },
+            "HQEH3ZWJVT46JHRG.JRTCKXETXF.VF6T3GAUKQ": {
+              "rateCode": "HQEH3ZWJVT46JHRG.JRTCKXETXF.VF6T3GAUKQ",
+              "description": "$0.085 per GB - next 40 TB / month data transfer out",
+              "beginRange": "10240",
+              "endRange": "51200",
+              "unit": "GB",
+              "pricePerUnit": {
+                "USD": "0.0850000000"
+              },
+              "appliesTo": []
+            },
+            "HQEH3ZWJVT46JHRG.JRTCKXETXF.N9EW5UVVPA": {
+              "rateCode": "HQEH3ZWJVT46JHRG.JRTCKXETXF.N9EW5UVVPA",
+              "description": "$0.070 per GB - next 100 TB / month data transfer out",
+              "beginRange": "51200",
+              "endRange": "153600",
+              "unit": "GB",
+              "pricePerUnit": {
+                "USD": "0.0700000000"
+              },
+              "appliesTo": []
+            },
+            "HQEH3ZWJVT46JHRG.JRTCKXETXF.GPHXDESFBB": {
+              "rateCode": "HQEH3ZWJVT46JHRG.JRTCKXETXF.GPHXDESFBB",
+              "description": "$0.050 per GB - greater than 150 TB / month data transfer out",
+              "beginRange": "153600",
+              "endRange": "Inf",
+              "unit": "GB",
+              "pricePerUnit": {
+                "USD": "0.0500000000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      }
+    }
+  }
+}

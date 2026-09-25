@@ -1,0 +1,63 @@
+{
+  "BillingCurrency": "USD",
+  "Items": [
+    {
+      "currencyCode": "USD",
+      "tierMinimumUnits": 0.0,
+      "retailPrice": 0.115,
+      "unitPrice": 0.115,
+      "armRegionName": "westeurope",
+      "location": "EU West",
+      "effectiveStartDate": "2021-11-01T00:00:00Z",
+      "meterId": "0561adcb-1c48-542e-9e0c-10dea22fc392",
+      "meterName": "D2s v5",
+      "productId": "DZH318Z08M9W",
+      "skuId": "DZH318Z08M9W/0092",
+      "productName": "Virtual Machines Dsv5 Series",
+      "skuName": "Standard_D2s_v5",
+      "serviceName": "Virtual Machines",
+      "serviceId": "DZH313Z7MMC8",
+      "serviceFamily": "Compute",
+      "unitOfMeasure": "1 Hour",
+      "type": "Consumption",
+      "isPrimaryMeterRegion": true,
+      "armSkuName": "Standard_D2s_v5",
+      "savingsPlan": [
+        {
+          "unitPrice": 0.06325,
+          "retailPrice": 0.06325,
+          "term": "3 Years"
+        },
+        {
+          "unitPrice": 0.0874,
+          "retailPrice": 0.0874,
+          "term": "1 Year"
+        }
+      ]
+    },
+    {
+      "currencyCode": "USD",
+      "tierMinimumUnits": 0.0,
+      "retailPrice": 0.038254,
+      "unitPrice": 0.038254,
+      "armRegionName": "westeurope",
+      "location": "EU West",
+      "effectiveStartDate": "2026-02-01T00:00:00Z",
+      "meterId": "10164ad8-1026-5266-9379-a3a0994601c6",
+      "meterName": "D2s v5 Spot",
+      "productId": "DZH318Z08M9T",
+      "skuId": "DZH318Z08M9T/005Z",
+      "productName": "Virtual Machines Dsv5 Series Windows",
+      "skuName": "Standard_D2s_v5 Spot",
+      "serviceName": "Virtual Machines",
+      "serviceId": "DZH313Z7MMC8",
+      "serviceFamily": "Compute",
+      "unitOfMeasure": "1 Hour",
+      "type": "Consumption",
+      "isPrimaryMeterRegion": true,
+      "armSkuName": "Standard_D2s_v5"
+    }
+  ],
+  "NextPageLink": null,
+  "Count": 2
+}

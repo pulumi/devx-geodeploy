@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "references": [
+    { "path": "../catalog" },
+    { "path": "../compose" },
+    { "path": "../core" },
+    { "path": "../cost" },
+    { "path": "../decide" },
+    { "path": "../detect" },
+    { "path": "../geo" },
+    { "path": "../observe" },
+    { "path": "../pricing" },
+    { "path": "../provision" },
+    { "path": "../report" }
+  ],
+  "include": ["src"]
+}

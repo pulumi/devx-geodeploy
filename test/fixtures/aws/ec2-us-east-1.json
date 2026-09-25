@@ -1,0 +1,239 @@
+{
+  "formatVersion": "v1.0",
+  "publicationDate": "2026-09-10T19:55:14Z",
+  "products": {
+    "RSV572JURZ29ZMTS": {
+      "sku": "RSV572JURZ29ZMTS",
+      "productFamily": "Compute Instance",
+      "attributes": {
+        "servicecode": "AmazonEC2",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "instanceType": "m6g.large",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "vcpu": "2",
+        "physicalProcessor": "AWS Graviton2 Processor",
+        "memory": "8 GiB",
+        "storage": "EBS only",
+        "networkPerformance": "Up to 10 Gigabit",
+        "processorArchitecture": "64-bit",
+        "tenancy": "Shared",
+        "operatingSystem": "Linux",
+        "licenseModel": "No License required",
+        "usagetype": "BoxUsage:m6g.large",
+        "operation": "RunInstances",
+        "availabilityzone": "NA",
+        "capacitystatus": "Used",
+        "classicnetworkingsupport": "false",
+        "dedicatedEbsThroughput": "600 Mbps",
+        "dedicatedEbsThroughputDescription": "600 Mbps",
+        "ecu": "NA",
+        "enhancedNetworkingSupported": "Yes",
+        "gpuMemory": "NA",
+        "instanceFamilyCategory": "General Purpose",
+        "intelAvxAvailable": "No",
+        "intelAvx2Available": "No",
+        "intelTurboAvailable": "No",
+        "marketoption": "OnDemand",
+        "normalizationSizeFactor": "4",
+        "preInstalledSw": "NA",
+        "regionCode": "us-east-1",
+        "servicename": "Amazon Elastic Compute Cloud",
+        "vpcnetworkingsupport": "true"
+      }
+    },
+    "6C86BEPQVG73ZGGR": {
+      "sku": "6C86BEPQVG73ZGGR",
+      "productFamily": "Compute Instance",
+      "attributes": {
+        "servicecode": "AmazonEC2",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "instanceType": "m5.large",
+        "currentGeneration": "Yes",
+        "instanceFamily": "General purpose",
+        "vcpu": "2",
+        "physicalProcessor": "Intel Xeon Platinum 8175",
+        "clockSpeed": "3.1 GHz",
+        "memory": "8 GiB",
+        "storage": "EBS only",
+        "networkPerformance": "Up to 10 Gigabit",
+        "processorArchitecture": "64-bit",
+        "tenancy": "Shared",
+        "operatingSystem": "Linux",
+        "licenseModel": "No License required",
+        "usagetype": "BoxUsage:m5.large",
+        "operation": "RunInstances",
+        "availabilityzone": "NA",
+        "capacitystatus": "Used",
+        "classicnetworkingsupport": "false",
+        "dedicatedEbsThroughput": "Up to 2120 Mbps",
+        "dedicatedEbsThroughputDescription": "480 Mbps",
+        "ecu": "10",
+        "enhancedNetworkingSupported": "Yes",
+        "gpuMemory": "NA",
+        "instanceFamilyCategory": "General Purpose",
+        "intelAvxAvailable": "Yes",
+        "intelAvx2Available": "Yes",
+        "intelTurboAvailable": "Yes",
+        "marketoption": "OnDemand",
+        "normalizationSizeFactor": "4",
+        "preInstalledSw": "NA",
+        "processorFeatures": "Intel AVX; Intel AVX2; Intel AVX512; Intel Turbo",
+        "regionCode": "us-east-1",
+        "servicename": "Amazon Elastic Compute Cloud",
+        "vpcnetworkingsupport": "true"
+      }
+    },
+    "9B39KMDC8628VV55": {
+      "sku": "9B39KMDC8628VV55",
+      "productFamily": "Compute Instance",
+      "attributes": {
+        "servicecode": "AmazonEC2",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "instanceType": "c7g.large",
+        "currentGeneration": "Yes",
+        "instanceFamily": "Compute optimized",
+        "vcpu": "2",
+        "physicalProcessor": "AWS Graviton3 Processor",
+        "clockSpeed": "2.5 GHz",
+        "memory": "4 GiB",
+        "storage": "EBS only",
+        "networkPerformance": "Up to 12500 Megabit",
+        "processorArchitecture": "64-bit",
+        "tenancy": "Shared",
+        "operatingSystem": "Linux",
+        "licenseModel": "No License required",
+        "usagetype": "BoxUsage:c7g.large",
+        "operation": "RunInstances",
+        "availabilityzone": "NA",
+        "capacitystatus": "Used",
+        "classicnetworkingsupport": "false",
+        "dedicatedEbsThroughput": "Up to 10000 Mbps",
+        "dedicatedEbsThroughputDescription": "630 Mbps",
+        "ecu": "NA",
+        "enhancedNetworkingSupported": "Yes",
+        "gpuMemory": "NA",
+        "instanceFamilyCategory": "Compute Optimized",
+        "intelAvxAvailable": "No",
+        "intelAvx2Available": "No",
+        "intelTurboAvailable": "No",
+        "marketoption": "OnDemand",
+        "normalizationSizeFactor": "4",
+        "preInstalledSw": "NA",
+        "regionCode": "us-east-1",
+        "servicename": "Amazon Elastic Compute Cloud",
+        "vpcnetworkingsupport": "true"
+      }
+    },
+    "JG3KUJMBRGHV3N8G": {
+      "sku": "JG3KUJMBRGHV3N8G",
+      "productFamily": "Storage",
+      "attributes": {
+        "servicecode": "AmazonEC2",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "storageMedia": "SSD-backed",
+        "volumeType": "General Purpose",
+        "maxVolumeSize": "64 TiB",
+        "maxIopsvolume": "80000",
+        "maxThroughputvolume": "2000 MiB/s",
+        "usagetype": "EBS:VolumeUsage.gp3",
+        "operation": "",
+        "regionCode": "us-east-1",
+        "servicename": "Amazon Elastic Compute Cloud",
+        "volumeApiName": "gp3"
+      }
+    }
+  },
+  "terms": {
+    "OnDemand": {
+      "RSV572JURZ29ZMTS": {
+        "RSV572JURZ29ZMTS.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "RSV572JURZ29ZMTS",
+          "effectiveDate": "2026-09-01T00:00:00Z",
+          "priceDimensions": {
+            "RSV572JURZ29ZMTS.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "RSV572JURZ29ZMTS.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.077 per On Demand Linux m6g.large Instance Hour",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Hrs",
+              "pricePerUnit": {
+                "USD": "0.0770000000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "6C86BEPQVG73ZGGR": {
+        "6C86BEPQVG73ZGGR.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "6C86BEPQVG73ZGGR",
+          "effectiveDate": "2026-09-01T00:00:00Z",
+          "priceDimensions": {
+            "6C86BEPQVG73ZGGR.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "6C86BEPQVG73ZGGR.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.096 per On Demand Linux m5.large Instance Hour",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Hrs",
+              "pricePerUnit": {
+                "USD": "0.0960000000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "9B39KMDC8628VV55": {
+        "9B39KMDC8628VV55.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "9B39KMDC8628VV55",
+          "effectiveDate": "2026-09-01T00:00:00Z",
+          "priceDimensions": {
+            "9B39KMDC8628VV55.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "9B39KMDC8628VV55.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.0725 per On Demand Linux c7g.large Instance Hour",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Hrs",
+              "pricePerUnit": {
+                "USD": "0.0725000000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "JG3KUJMBRGHV3N8G": {
+        "JG3KUJMBRGHV3N8G.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "JG3KUJMBRGHV3N8G",
+          "effectiveDate": "2026-09-01T00:00:00Z",
+          "priceDimensions": {
+            "JG3KUJMBRGHV3N8G.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "JG3KUJMBRGHV3N8G.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.08 per GB-month of General Purpose (gp3) provisioned storage - US East (N. Virginia)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "GB-Mo",
+              "pricePerUnit": {
+                "USD": "0.0800000000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      }
+    }
+  }
+}

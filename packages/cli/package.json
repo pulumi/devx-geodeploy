@@ -1,0 +1,29 @@
+{
+  "name": "@geodeploy/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "geodeploy": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@geodeploy/catalog": "workspace:*",
+    "@geodeploy/compose": "workspace:*",
+    "@geodeploy/core": "workspace:*",
+    "@geodeploy/cost": "workspace:*",
+    "@geodeploy/decide": "workspace:*",
+    "@geodeploy/detect": "workspace:*",
+    "@geodeploy/geo": "workspace:*",
+    "@geodeploy/observe": "workspace:*",
+    "@geodeploy/pricing": "workspace:*",
+    "@geodeploy/provision": "workspace:*",
+    "@geodeploy/report": "workspace:*",
+    "@geodeploy/web": "workspace:*",
+    "commander": "^12.1.0"
+  }
+}

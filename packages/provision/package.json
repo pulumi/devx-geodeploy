@@ -1,0 +1,17 @@
+{
+  "name": "@geodeploy/provision",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@geodeploy/compose": "workspace:*",
+    "@geodeploy/core": "workspace:*",
+    "@geodeploy/detect": "workspace:*",
+    "@pulumi/pulumi": "^3.142.0"
+  }
+}

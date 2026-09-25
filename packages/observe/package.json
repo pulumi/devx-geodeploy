@@ -1,0 +1,17 @@
+{
+  "name": "@geodeploy/observe",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@geodeploy/core": "workspace:*",
+    "@geodeploy/provision": "workspace:*",
+    "@kubernetes/client-node": "^1.4.0",
+    "google-auth-library": "^11.0.2"
+  }
+}

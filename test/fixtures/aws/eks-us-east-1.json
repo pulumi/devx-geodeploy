@@ -1,0 +1,45 @@
+{
+  "formatVersion": "v1.0",
+  "publicationDate": "2026-09-11T12:44:27Z",
+  "products": {
+    "ZYWMR684YSMFHWEU": {
+      "sku": "ZYWMR684YSMFHWEU",
+      "productFamily": "Compute",
+      "attributes": {
+        "servicecode": "AmazonEKS",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "usagetype": "USE1-AmazonEKS-Hours:perCluster",
+        "operation": "CreateOperation",
+        "regionCode": "us-east-1",
+        "servicename": "Amazon Elastic Container Service for Kubernetes",
+        "tiertype": "HAStandard"
+      }
+    }
+  },
+  "terms": {
+    "OnDemand": {
+      "ZYWMR684YSMFHWEU": {
+        "ZYWMR684YSMFHWEU.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "ZYWMR684YSMFHWEU",
+          "effectiveDate": "2026-08-01T00:00:00Z",
+          "priceDimensions": {
+            "ZYWMR684YSMFHWEU.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "ZYWMR684YSMFHWEU.JRTCKXETXF.6YS6EN2CT7",
+              "description": "Amazon EKS cluster usage in US East (N. Virginia)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Hours",
+              "pricePerUnit": {
+                "USD": "0.1000000000"
+              },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      }
+    }
+  }
+}

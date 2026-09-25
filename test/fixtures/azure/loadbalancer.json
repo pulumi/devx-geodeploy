@@ -1,0 +1,51 @@
+{
+  "BillingCurrency": "USD",
+  "Items": [
+    {
+      "currencyCode": "USD",
+      "tierMinimumUnits": 0.0,
+      "retailPrice": 0.025,
+      "unitPrice": 0.025,
+      "armRegionName": "Global",
+      "location": "Global",
+      "effectiveStartDate": "2018-04-11T00:00:00Z",
+      "meterId": "27827eb0-7f60-4928-940b-f5fe15e7a4cb",
+      "meterName": "Standard Included LB Rules and Outbound Rules",
+      "productId": "DZH318Z0BNXH",
+      "skuId": "DZH318Z0BNXH/0002",
+      "productName": "Load Balancer",
+      "skuName": "Standard",
+      "serviceName": "Load Balancer",
+      "serviceId": "DZH319SLRJG5",
+      "serviceFamily": "Networking",
+      "unitOfMeasure": "1 Hour",
+      "type": "Consumption",
+      "isPrimaryMeterRegion": true,
+      "armSkuName": ""
+    },
+    {
+      "currencyCode": "USD",
+      "tierMinimumUnits": 0.0,
+      "retailPrice": 0.005,
+      "unitPrice": 0.005,
+      "armRegionName": "Global",
+      "location": "Global",
+      "effectiveStartDate": "2018-04-11T00:00:00Z",
+      "meterId": "dfc7cc11-fbe2-41c8-b6fa-24a574223938",
+      "meterName": "Standard Data Processed",
+      "productId": "DZH318Z0BNXH",
+      "skuId": "DZH318Z0BNXH/0002",
+      "productName": "Load Balancer",
+      "skuName": "Standard",
+      "serviceName": "Load Balancer",
+      "serviceId": "DZH319SLRJG5",
+      "serviceFamily": "Networking",
+      "unitOfMeasure": "1 GB",
+      "type": "Consumption",
+      "isPrimaryMeterRegion": true,
+      "armSkuName": ""
+    }
+  ],
+  "NextPageLink": null,
+  "Count": 2
+}

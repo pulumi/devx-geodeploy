@@ -1,0 +1,180 @@
+{
+  "formatVersion": "v1.0",
+  "publicationDate": "2026-09-11T12:45:44Z",
+  "products": {
+    "86N8GXZDBHR7M87T": {
+      "sku": "86N8GXZDBHR7M87T",
+      "productFamily": "Load Balancer-Network",
+      "attributes": {
+        "servicecode": "AWSELB",
+        "location": "EU (Frankfurt)",
+        "locationType": "AWS Region",
+        "group": "ELB:Balancing",
+        "groupDescription": "LoadBalancer hourly usage by Network Load Balancer",
+        "usagetype": "EUC1-LoadBalancerUsage",
+        "operation": "LoadBalancing:Network",
+        "regionCode": "eu-central-1",
+        "servicename": "Elastic Load Balancing"
+      }
+    },
+    "UZQQFKE5Z4MCF9D5": {
+      "sku": "UZQQFKE5Z4MCF9D5",
+      "productFamily": "Load Balancer-Application",
+      "attributes": {
+        "servicecode": "AWSELB",
+        "location": "EU (Frankfurt)",
+        "locationType": "AWS Region",
+        "group": "ELB:Balancing",
+        "groupDescription": "LoadBalancer hourly usage by Application Load Balancer",
+        "usagetype": "EUC1-LoadBalancerUsage",
+        "operation": "LoadBalancing:Application",
+        "regionCode": "eu-central-1",
+        "servicename": "Elastic Load Balancing"
+      }
+    },
+    "YXRJUS9PC7VEJ7CZ": {
+      "sku": "YXRJUS9PC7VEJ7CZ",
+      "productFamily": "Load Balancer",
+      "attributes": {
+        "servicecode": "AWSELB",
+        "location": "EU (Frankfurt)",
+        "locationType": "AWS Region",
+        "group": "ELB:Balancing",
+        "groupDescription": "LoadBalancer hourly usage by Classic Load Balancer",
+        "usagetype": "EUC1-LoadBalancerUsage",
+        "operation": "LoadBalancing",
+        "regionCode": "eu-central-1",
+        "servicename": "Elastic Load Balancing"
+      }
+    },
+    "RFA8YQG3DAJNHSWN": {
+      "sku": "RFA8YQG3DAJNHSWN",
+      "productFamily": "Load Balancer-Gateway",
+      "attributes": {
+        "servicecode": "AWSELB",
+        "location": "EU (Frankfurt)",
+        "locationType": "AWS Region",
+        "group": "ELB:Balancing",
+        "groupDescription": "LoadBalancer hourly usage by Gateway Load Balancer",
+        "usagetype": "EUC1-LoadBalancerUsage",
+        "operation": "LoadBalancing:Gateway",
+        "regionCode": "eu-central-1",
+        "servicename": "Elastic Load Balancing"
+      }
+    },
+    "HV96QEHTAXCYGREA": {
+      "sku": "HV96QEHTAXCYGREA",
+      "productFamily": "Load Balancer-Application",
+      "attributes": {
+        "servicecode": "AWSELB",
+        "location": "EU (Frankfurt)",
+        "locationType": "AWS Region",
+        "group": "ELB:Balancing",
+        "groupDescription": "TS hourly usage by Application Load Balancer",
+        "usagetype": "EUC1-TS-LoadBalancerUsage",
+        "operation": "LoadBalancing:Application",
+        "regionCode": "eu-central-1",
+        "servicename": "Elastic Load Balancing"
+      }
+    }
+  },
+  "terms": {
+    "OnDemand": {
+      "86N8GXZDBHR7M87T": {
+        "86N8GXZDBHR7M87T.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "86N8GXZDBHR7M87T",
+          "effectiveDate": "2026-08-01T00:00:00Z",
+          "priceDimensions": {
+            "86N8GXZDBHR7M87T.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "86N8GXZDBHR7M87T.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.0270 per Network LoadBalancer-hour (or partial hour)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Hrs",
+              "pricePerUnit": { "USD": "0.0270000000" },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "UZQQFKE5Z4MCF9D5": {
+        "UZQQFKE5Z4MCF9D5.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "UZQQFKE5Z4MCF9D5",
+          "effectiveDate": "2026-08-01T00:00:00Z",
+          "priceDimensions": {
+            "UZQQFKE5Z4MCF9D5.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "UZQQFKE5Z4MCF9D5.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.027 per Application LoadBalancer-hour (or partial hour)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Hrs",
+              "pricePerUnit": { "USD": "0.0270000000" },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "YXRJUS9PC7VEJ7CZ": {
+        "YXRJUS9PC7VEJ7CZ.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "YXRJUS9PC7VEJ7CZ",
+          "effectiveDate": "2026-08-01T00:00:00Z",
+          "priceDimensions": {
+            "YXRJUS9PC7VEJ7CZ.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "YXRJUS9PC7VEJ7CZ.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.030 per LoadBalancer-hour (or partial hour)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Hrs",
+              "pricePerUnit": { "USD": "0.0300000000" },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "RFA8YQG3DAJNHSWN": {
+        "RFA8YQG3DAJNHSWN.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "RFA8YQG3DAJNHSWN",
+          "effectiveDate": "2026-08-01T00:00:00Z",
+          "priceDimensions": {
+            "RFA8YQG3DAJNHSWN.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "RFA8YQG3DAJNHSWN.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.0147 per Gateway LoadBalancer-hour (or partial hour) in EU (Frankfurt)",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Hrs",
+              "pricePerUnit": { "USD": "0.0147000000" },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      },
+      "HV96QEHTAXCYGREA": {
+        "HV96QEHTAXCYGREA.JRTCKXETXF": {
+          "offerTermCode": "JRTCKXETXF",
+          "sku": "HV96QEHTAXCYGREA",
+          "effectiveDate": "2026-08-01T00:00:00Z",
+          "priceDimensions": {
+            "HV96QEHTAXCYGREA.JRTCKXETXF.6YS6EN2CT7": {
+              "rateCode": "HV96QEHTAXCYGREA.JRTCKXETXF.6YS6EN2CT7",
+              "description": "$0.006 per associated Application load balancer Trust Store unit-hour ",
+              "beginRange": "0",
+              "endRange": "Inf",
+              "unit": "Hrs",
+              "pricePerUnit": { "USD": "0.0060000000" },
+              "appliesTo": []
+            }
+          },
+          "termAttributes": {}
+        }
+      }
+    }
+  }
+}
